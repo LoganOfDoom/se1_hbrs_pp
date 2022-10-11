@@ -9,11 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class GermanTranslatorTest {
 
     GermanTranslator gTrans = new GermanTranslator();
-    
-    // gAEK_1: [1,...,10]
-    // uAEK_1: [MIN_INT,...,1[
-    // uAEK_2: ]10,...,MAX_INT]
-    // uAEK_3: NaN
+
 
     @Test
     void gAEK_1(){
