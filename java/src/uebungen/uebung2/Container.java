@@ -12,8 +12,13 @@ public class Container {
 
 
     public void addMember(Member member) throws ContainerException {
-        if(members.contains(member)){
+       /* if(members.contains(member)){
             throw new ContainerException(member);
+        } */
+        for(int i=0; i<members.size(); i++){
+            if(members.get(i).getID() == member.getID()){
+                throw new ContainerException(member);
+            }
         }
         /*
         for(int i = 0; i<members.length; i++){

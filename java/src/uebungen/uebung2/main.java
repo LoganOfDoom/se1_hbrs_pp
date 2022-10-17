@@ -7,6 +7,7 @@ public class main {
         ConcreteMember m2 = new ConcreteMember("Lady Afri von Cola");
         ConcreteMember m3 = new ConcreteMember("Sachse Vita von Cola");
         c1.addMember(m1);
+        //c1.addMember(m1);  test ob exception funktioniert
         c1.addMember(m2);
         c1.addMember(m3);
         c1.dump();
@@ -14,7 +15,8 @@ public class main {
         c1.addMember(c1.createMember("Lady Coca von Cola"));
         c1.dump();
         System.out.println(c1.size());
-        c1.deleteMember(3);
+        System.out.println(c1.deleteMember(3));
+        System.out.println(c1.deleteMember(23)); //test ob "exception" funktioniert
         c1.dump();
         System.out.println(c1.size());
     }
