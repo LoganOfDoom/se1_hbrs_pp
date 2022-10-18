@@ -1,7 +1,7 @@
-package uebungen.uebung1.view;
+package org.hbrs.se1.ws22.uebung1.view;
 
 
-import uebungen.uebung1.control.Host;
+import org.hbrs.se1.ws22.uebung1.control.Host;
 
 public class Client {
 

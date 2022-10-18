@@ -1,4 +1,4 @@
-package uebungen.uebung2;
+package org.hbrs.se1.ws22.uebung2;
 
 public class ConcreteMember implements Member{
 
@@ -6,19 +6,17 @@ public class ConcreteMember implements Member{
     private Integer id;
     private String name;
 
-    public ConcreteMember(String name){
+    public ConcreteMember(){
         number++;
         id = number;
-        this.name = name;
+
     }
     @Override
     public Integer getID() {
         return this.id;
     }
 
-    public String getName(){
-        return this.name;
-    }
+
 
     public String toString(){
         return "ID = "+getID() + " " +name;

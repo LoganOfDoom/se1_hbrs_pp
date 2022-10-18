@@ -1,4 +1,4 @@
-package uebungen.uebung1.control;
+package org.hbrs.se1.ws22.uebung1.control;
 
 /**
  * Das Translator Interface. Die Anzahl der Methoden ist fix

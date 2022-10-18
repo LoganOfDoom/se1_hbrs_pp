@@ -1,4 +1,4 @@
-package uebungen.uebung2;
+package org.hbrs.se1.ws22.uebung2;
 
 import java.util.ArrayList;
 
@@ -31,8 +31,8 @@ public class Container {
         members.add(member);
     }
 
-    public Member createMember(String name){
-        ConcreteMember x = new ConcreteMember(name);
+    public Member createMember(){
+        ConcreteMember x = new ConcreteMember();
         return x;
     }
 

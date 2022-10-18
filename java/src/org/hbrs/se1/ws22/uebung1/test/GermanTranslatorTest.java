@@ -1,7 +1,7 @@
-package uebungen.uebung1.test;
+package org.hbrs.se1.ws22.uebung1.test;
 
 import org.junit.jupiter.api.Test;
-import uebungen.uebung1.control.GermanTranslator;
+import org.hbrs.se1.ws22.uebung1.control.GermanTranslator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
