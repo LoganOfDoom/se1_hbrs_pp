@@ -1,13 +1,40 @@
 package org.hbrs.se1.ws22.uebung2;
 
+import org.hbrs.se1.ws22.uebung3.*;
+
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Container {
     ArrayList<Member> members = new ArrayList<Member>();
+    private static final Container container = new Container();
+    private static PersistenceStrategy ps;
 
    // private Member members[];
     public Container(){
 
+    }
+
+    public ArrayList<Member> getCurrentList() {
+        return container.members;
+    }
+
+    public static Container createContainer() {
+        container.ps = new PersistenceStrategyStream();
+        return container;
+    }
+
+    public static Container createContainer(PersistenceStrategy ps){
+        container.ps = ps;
+        return container;
+    }
+
+    public void store() throws PersistenceException, IOException {
+        ps.save(container.members);
+    }
+
+    public void load() throws PersistenceException {
+        container.members = (ArrayList<Member>) ps.load();
     }
 
 
