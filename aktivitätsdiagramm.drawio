@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T14:38:58.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YLvbRJwBTCDlaaz5cIaA" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T14:46:20.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Qh8w62pnw2PyMu8KfB5-" version="20.5.1" type="github">
   <diagram id="fr8RuPPIrNXzzEzKtIRU" name="Seite-1">
-    <mxGraphModel dx="1259" dy="541" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="648" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="8A0xAoIYai8UNWLOcCex-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-5" target="8A0xAoIYai8UNWLOcCex-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8A0xAoIYai8UNWLOcCex-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-5" target="8A0xAoIYai8UNWLOcCex-50">
+        <mxCell id="8A0xAoIYai8UNWLOcCex-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-5" target="8A0xAoIYai8UNWLOcCex-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8A0xAoIYai8UNWLOcCex-5" value="PO stellt Sprintziel vor" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -100,7 +100,7 @@
         <mxCell id="8A0xAoIYai8UNWLOcCex-29" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="320" y="300" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8A0xAoIYai8UNWLOcCex-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-34" target="8A0xAoIYai8UNWLOcCex-17">
+        <mxCell id="8A0xAoIYai8UNWLOcCex-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-34" target="8A0xAoIYai8UNWLOcCex-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8A0xAoIYai8UNWLOcCex-34" value="Anforderung wird mit neuer Schätzung ins Produkt Backlog zurückgelegt" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -122,7 +122,7 @@
           <mxGeometry x="340" y="730" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8A0xAoIYai8UNWLOcCex-50" value="Ziel" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
-          <mxGeometry x="500" y="30" width="100" height="60" as="geometry" />
+          <mxGeometry x="140" y="130" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8A0xAoIYai8UNWLOcCex-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-56" target="8A0xAoIYai8UNWLOcCex-58">
           <mxGeometry relative="1" as="geometry" />
@@ -132,6 +132,15 @@
         </mxCell>
         <mxCell id="8A0xAoIYai8UNWLOcCex-58" value="Neue Kapazität (Velocity) des kommenden Sprints wird ermittelt" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="500" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8A0xAoIYai8UNWLOcCex-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-60" target="8A0xAoIYai8UNWLOcCex-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8A0xAoIYai8UNWLOcCex-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-60" target="8A0xAoIYai8UNWLOcCex-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8A0xAoIYai8UNWLOcCex-60" value="Prüfen ob das Ziel anzupassen ist" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="490" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
