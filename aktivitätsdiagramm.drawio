@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T14:46:20.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Qh8w62pnw2PyMu8KfB5-" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T05:14:21.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WZV2WLKHkfoLyo4DAYWH" version="20.5.1" type="github">
   <diagram id="fr8RuPPIrNXzzEzKtIRU" name="Seite-1">
     <mxGraphModel dx="2075" dy="648" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,6 +130,9 @@
         <mxCell id="8A0xAoIYai8UNWLOcCex-56" value="Ergebnisse des vorherigen Sprints werden angesehen" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="505" y="370" width="110" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8A0xAoIYai8UNWLOcCex-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-58" target="8A0xAoIYai8UNWLOcCex-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8A0xAoIYai8UNWLOcCex-58" value="Neue Kapazität (Velocity) des kommenden Sprints wird ermittelt" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="500" y="460" width="120" height="60" as="geometry" />
         </mxCell>
@@ -141,6 +144,21 @@
         </mxCell>
         <mxCell id="8A0xAoIYai8UNWLOcCex-60" value="Prüfen ob das Ziel anzupassen ist" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-60" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8A0xAoIYai8UNWLOcCex-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-65" target="8A0xAoIYai8UNWLOcCex-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8A0xAoIYai8UNWLOcCex-65" value="Ergebnisse werden im Tool &quot;Confluence&quot; dokumentiert" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8A0xAoIYai8UNWLOcCex-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#000000;" edge="1" parent="1" source="8A0xAoIYai8UNWLOcCex-67" target="8A0xAoIYai8UNWLOcCex-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8A0xAoIYai8UNWLOcCex-67" value="Präsentation der Anforderungen" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8A0xAoIYai8UNWLOcCex-69" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="740" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
