@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T20:24:27.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.5.1" etag="SJQ5Pqc_EdSYBnjsaoP5" type="github"><diagram id="Keys5r1_R8sO56-mWRXs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-10T21:23:38.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Nf6YOdFho41_AemzDU04" version="20.5.1" type="github">
+  <diagram id="Keys5r1_R8sO56-mWRXs" name="Seite-1">
+    <mxGraphModel dx="2416" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-1" value="&lt;&lt;Interface&gt;&gt;&#xa;VerificationAlgorithm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="360" height="89" as="geometry">
+            <mxRectangle x="520" y="100" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-1">
+          <mxGeometry y="55" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-4" value="+ verifyBooking (b : Buchung) : Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-1">
+          <mxGeometry y="63" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-117" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=classic;endFill=1;startSize=55;" edge="1" parent="1" source="UKtfF5tSb2hU_a7DN_DE-9" target="UKtfF5tSb2hU_a7DN_DE-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-9" value="ReiseAnbieterController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="112" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-9">
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-12" value="+ verifyBooking(b : Buchung) : Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-9">
+          <mxGeometry y="34" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-83" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.002;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;startSize=55;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="UKtfF5tSb2hU_a7DN_DE-15" target="UKtfF5tSb2hU_a7DN_DE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-84" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.083;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;startSize=55;endArrow=block;endFill=0;" edge="1" parent="1" source="UKtfF5tSb2hU_a7DN_DE-15" target="UKtfF5tSb2hU_a7DN_DE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-15" value="SwissGAAPFER" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-15">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-18" value="+ verifyBooking (b : Buchung) : Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-15">
+          <mxGeometry y="34" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-56" value="GlobalConfig" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="103" width="350" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-57" value="- verificationAlogrithm : VerificationAlgorithm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-56">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-56">
+          <mxGeometry y="52" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-59" value="+ setVerificationAlgorithm (algorithm : VerificationAlgorithm)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-56">
+          <mxGeometry y="60" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-107" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.409;exitY=-0.017;exitDx=0;exitDy=0;strokeColor=default;startSize=55;dashed=1;endArrow=block;endFill=0;exitPerimeter=0;entryX=0.428;entryY=1.07;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UKtfF5tSb2hU_a7DN_DE-68" target="UKtfF5tSb2hU_a7DN_DE-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-111" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.554;exitY=0.008;exitDx=0;exitDy=0;strokeColor=default;startSize=55;exitPerimeter=0;entryX=0.537;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="UKtfF5tSb2hU_a7DN_DE-68" target="UKtfF5tSb2hU_a7DN_DE-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750.3773584905657" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-68" value="IFRS" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-68">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-70" value="+ verifyBooking (b : Buchung) : Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-68">
+          <mxGeometry y="34" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-98" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.999;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;startSize=55;endArrow=block;endFill=0;" edge="1" parent="1" source="UKtfF5tSb2hU_a7DN_DE-71" target="UKtfF5tSb2hU_a7DN_DE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-106" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=default;startSize=55;dashed=1;endArrow=block;endFill=0;entryX=0.93;entryY=1.107;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UKtfF5tSb2hU_a7DN_DE-71" target="UKtfF5tSb2hU_a7DN_DE-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1063.7500000000005" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-71" value="USGAAP&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="250" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-71">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-73" value="+ verifyBooking (b : Buchung) : Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UKtfF5tSb2hU_a7DN_DE-71">
+          <mxGeometry y="34" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UKtfF5tSb2hU_a7DN_DE-116" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;endArrow=classic;endFill=1;startSize=55;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKtfF5tSb2hU_a7DN_DE-57" target="UKtfF5tSb2hU_a7DN_DE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
